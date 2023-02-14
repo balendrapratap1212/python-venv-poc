@@ -18,9 +18,8 @@ pipeline {
         stage("Connect DATABASE"){
             steps{
                 sh '''#!/usr/bin/env python3
-
-                echo 'Balendra Singh'
-
+            
+            import pyodbc
                 '''
             }
         }
