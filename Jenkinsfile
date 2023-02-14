@@ -11,6 +11,8 @@ pipeline {
             steps{
                 echo "creating python venv"
                 sh "python3 --version"
+                sh "python -m venv maidhcdp"
+                sh "pwd"
             }
         }
     }
