@@ -11,9 +11,17 @@ pipeline {
             steps{
                 echo "creating python venv"
                 sh "python3 --version"
-                sh "python3 -m venv maidhcdp"
-                sh "pwd"
+
             }
+        stage("Connect DATABASE"){
+            steps{
+                sh '''#!/usr/bin/env python
+
+                echo "Balendra Singh-----------------"
+
+                '''
+            }
+        }
         }
     }
 }
