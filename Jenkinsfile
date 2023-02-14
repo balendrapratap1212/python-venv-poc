@@ -12,7 +12,9 @@ pipeline {
                 echo "creating python venv"
                 sh "python3 --version"
 
-            }
+          
+              }
+         }
         stage("Connect DATABASE"){
             steps{
                 sh '''#!/usr/bin/env python
@@ -22,6 +24,6 @@ pipeline {
                 '''
             }
         }
-        }
+    
     }
 }
