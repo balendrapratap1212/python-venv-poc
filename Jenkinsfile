@@ -7,7 +7,7 @@ pipeline {
                 git branch: 'main', credentialsId: 'Github_Credentails', url: 'https://github.com/balendrapratap1212/python-venv-poc.git'
             }
         }
-        steage('create Python venv'){
+        stage('create Python venv'){
             steps{
                 echo "creating python venv"
                 sh "python3 --version"
