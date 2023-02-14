@@ -19,7 +19,7 @@ pipeline {
             steps{
                 sh '''#!/usr/bin/env python3
 
-                echo "Balendra Singh-----------------"
+                echo 'Balendra Singh'
 
                 '''
             }
